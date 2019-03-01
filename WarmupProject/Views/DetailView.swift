@@ -18,7 +18,7 @@ class DetailView: UIView {
     
     lazy var albumCoverImageView: UIImageView = {
         let view = UIImageView()
-        view.contentMode = .scaleAspectFill
+        view.contentMode = .scaleAspectFit
         view.image = UIImage(named: "placeholderImage")
         return view
     }()
